@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="Entity" syncable="YES"/>
+    <entity name="Entity1" syncable="YES"/>
+    <entity name="Entity2" syncable="YES"/>
+    <entity name="TodoModel" representedClassName="TodoModel" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <fetchRequest name="FetchRequest" entity="TodoModel" predicateString="id CONTAINS &quot;1&quot; AND title CONTAINS &quot;&quot;"/>
+    <fetchRequest name="FetchRequest1" entity="Entity2"/>
+    <elements>
+        <element name="TodoModel" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Entity" positionX="-45" positionY="27" width="128" height="45"/>
+        <element name="Entity1" positionX="-27" positionY="36" width="128" height="45"/>
+        <element name="Entity2" positionX="-9" positionY="45" width="128" height="45"/>
+    </elements>
+</model>
